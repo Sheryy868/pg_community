@@ -65,4 +65,16 @@
             </div>
         </div>
     </div>
+    <!-- About Section -->
+    <section class="about-section d-flex align-items-center justify-content-center text-white">
+        <div class="container text-center">
+            <!-- Title -->
+            <h2 class="about-title mb-4">About Us</h2>
+            <!-- Description -->
+            <p class="about-description mb-4">We are dedicated to delivering the best service to our customers, ensuring
+                quality and excellence at every step.</p>
+            <!-- Button -->
+            <a href="#" class="btn btn-outline-light">Learn More</a>
+        </div>
+    </section>
 @endsection
