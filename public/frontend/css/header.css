@@ -1,0 +1,44 @@
+/* header.css */
+.custom-header {
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+    padding: var(--padding-sm) 0;
+}
+
+.logo {
+    width: var(--logo-width);
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    gap: var(--gap-lg) !important;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-base);
+    font-weight: 900;
+    text-align: left;
+    color: var(--text-color);
+    margin-right: var(--padding-lg);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--navbar-hover-text-color);
+    background-color: var(--navbar-hover-bg-color);
+}
+
+.btn-outline-light {
+    padding: 11px 2px;
+    width: var(--button-width);
+    height: var(--button-height);
+    border: 2px solid var(--accent-color);
+    color: var(--accent-color);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-base);
+    font-weight: 900;
+    transition: all 0.3s;
+}
+
+.btn-outline-light:hover {
+    color: var(--navbar-hover-text-color);
+    background-color: var(--navbar-hover-bg-color);
+    border-color: var(--navbar-hover-bg-color);
+}

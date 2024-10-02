@@ -1,0 +1,52 @@
+/* hero.css */
+.hero-section {
+    background-image: url('../images/hero_section.png');
+    background-size: cover;
+    background-position: center;
+    height: var(--hero-height);
+    color: var(--text-color);
+    position: relative;
+}
+
+.hero-title {
+    font-size: var(--font-size-large);
+    font-weight: 900;
+    line-height: 48.76px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.hero-description {
+    font-size: var(--font-size-medium);
+    font-weight: 600;
+    line-height: 36.57px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--dark-overlay);
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+.btn-outline-dark {
+    padding: 15px 25px;
+    text-decoration: none;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-base);
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    transition: all 0.3s;
+}

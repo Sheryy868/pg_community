@@ -1,0 +1,59 @@
+/* variables.css */
+:root {
+    /* Color variables */
+    --primary-bg-color: #272934;
+    --text-color: #FFFFFF;
+    --accent-color: #F06922;
+    --navbar-hover-bg-color: white;
+    --navbar-hover-text-color: #343a40;
+    --dark-overlay: rgba(0, 0, 0, 0.5);
+
+    /* Font variables */
+    --font-family-primary: 'Montserrat', sans-serif;
+    --font-family-secondary: 'Arial', sans-serif;
+    --font-size-base: 12px;
+    --font-size-large: 40px;
+    --font-size-medium: 30px;
+
+    /* Spacing variables */
+    --padding-sm: 15px;
+    --padding-lg: 47px;
+    --gap-lg: 17px;
+    --hero-height: 80vh;
+    --button-height: 47px;
+    --button-width: 184px;
+    --logo-width: 100px;
+}
+
+/* General Styles */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: var(--font-family-secondary);
+    background-color: var(--primary-bg-color);
+    color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-primary);
+    color: var(--text-color);
+}
+
+h1 {
+    font-size: var(--font-size-large);
+    font-weight: bold;
+}
+
+p {
+    font-size: var(--font-size-medium);
+    color: var(--text-color);
+    line-height: 1.5;
+}
