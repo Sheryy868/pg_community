@@ -1,4 +1,3 @@
-/* hero.css */
 .hero-section {
     background-image: url('../images/hero_section.png');
     background-size: cover;
@@ -11,7 +10,8 @@
 .hero-title {
     font-size: var(--font-size-large);
     font-weight: 900;
-    line-height: 48.76px;
+    line-height: 1.2;
+    /* Adjusted for better spacing */
     letter-spacing: 0.1em;
     text-align: left;
 }
@@ -19,7 +19,8 @@
 .hero-description {
     font-size: var(--font-size-medium);
     font-weight: 600;
-    line-height: 36.57px;
+    line-height: 1.5;
+    /* Adjusted for better spacing */
     letter-spacing: 0.1em;
     text-align: left;
 }
@@ -52,15 +53,12 @@
 }
 
 .about-section {
-    background-image: url('path-to-your-image.jpg');
-    /* Replace with the actual image path */
+    background-image: url('../images/about_section.png');
     background-size: cover;
     background-position: center;
     height: 80vh;
-    /* You can adjust the height */
     position: relative;
     color: var(--text-color);
-    /* Using your color variables */
 }
 
 .about-section::before {
@@ -71,14 +69,12 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
-    /* Dark overlay */
     z-index: 1;
 }
 
 .about-section .container {
     position: relative;
     z-index: 2;
-    /* Ensure the content is above the overlay */
 }
 
 .about-title {
@@ -89,19 +85,6 @@
 .about-description {
     font-size: 1.25rem;
     line-height: 1.5;
-}
-
-.btn-outline-light {
-    padding: 15px 30px;
-    font-weight: 700;
-    font-size: 1rem;
-    letter-spacing: 0.1em;
-    transition: all 0.3s;
-}
-
-.btn-outline-light:hover {
-    background-color: white;
-    color: black;
 }
 
 /* Responsive Adjustments */
