@@ -7,6 +7,8 @@
     <title>Pleasing Gaming</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" crossorigin="anonymous">
+    </script>
     <link href="{{ asset('frontend/css/main.css') }}" rel="stylesheet"> <!-- Include common variables -->
     <link href="{{ asset('frontend/css/header.css') }}" rel="stylesheet"> <!-- Specific styling for the header -->
     @yield('head') <!-- You can use this section for additional page-specific CSS/JS -->

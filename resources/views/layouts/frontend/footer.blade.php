@@ -1,11 +1,12 @@
 <footer class="bg-dark text-white py-4">
-    <div class="container">
+    <div class="container-lg">
         <div class="row">
             <!-- Column 1: Title, Description, and Social Links -->
             <div class="col-md-3 mb-3">
-                <h5>My Website</h5>
+                <h5>Pleasible Gaming</h5>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 <div class="social-links mt-2">
+                    <a href="#" class="text-white mr-2"><i class="fab fa-discord"></i></a>
                     <a href="#" class="text-white mr-2"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="text-white mr-2"><i class="fab fa-twitter"></i></a>
                     <a href="#" class="text-white mr-2"><i class="fab fa-instagram"></i></a>
@@ -55,4 +56,5 @@
 </footer>
 
 <!-- Include Font Awesome for social icons -->
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" crossorigin="anonymous">
+</script>
