@@ -314,6 +314,9 @@
 
 /* Adjustments for mobile views */
 @media (max-width: 768px) {
+    .main-section {
+        text-align: center;
+    }
 
     /* Stack the columns on top of each other */
     .main-section .row {
