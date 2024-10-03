@@ -11,7 +11,7 @@
     /* Font variables */
     --font-family-primary: 'Montserrat', sans-serif;
     --font-family-secondary: 'Arial', sans-serif;
-    --font-size-base: 12px;
+    --font-size-base: 14px;
     --font-size-large: 40px;
     --font-size-medium: 30px;
 
@@ -53,11 +53,139 @@ h1 {
 }
 
 p {
-    font-size: var(--font-size-medium);
     color: var(--text-color);
     line-height: 1.5;
 }
 
 span {
     color: var(--accent-color);
+}
+
+/* Responsive Design */
+@media (max-width: 1920px) {
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-description {
+        font-size: 1.5rem;
+    }
+
+    .btn-outline-dark,
+    .btn-accent {
+        font-size: 1.2rem;
+        padding: 12px 20px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .hero-title {
+        font-size: 2.75rem;
+    }
+
+    .hero-description {
+        font-size: 1.3rem;
+    }
+
+    .btn-outline-dark,
+    .btn-accent {
+        font-size: 1.1rem;
+        padding: 12px 18px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-description {
+        font-size: 1.2rem;
+    }
+
+    .btn-outline-dark,
+    .btn-accent {
+        font-size: 1rem;
+        padding: 10px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-description {
+        font-size: 1.1rem;
+    }
+
+    .btn-outline-dark,
+    .btn-accent {
+        font-size: 0.9rem;
+        padding: 9px 14px;
+    }
+
+    .main-section ul li {
+        font-size: 0.9rem;
+    }
+
+    .main-section h2 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .hero-title {
+        font-size: 1.75rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .btn-outline-dark,
+    .btn-accent {
+        font-size: 0.85rem;
+        padding: 8px 12px;
+    }
+
+    .main-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .main-section ul li {
+        font-size: 0.85rem;
+    }
+
+    .main-description {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .hero-description {
+        font-size: 0.9rem;
+    }
+
+    .btn-outline-dark,
+    .btn-accent {
+        font-size: 0.8rem;
+        padding: 7px 10px;
+    }
+
+    .main-section h2 {
+        font-size: 1.3rem;
+    }
+
+    .main-section ul li {
+        font-size: 0.75rem;
+    }
+
+    .main-description {
+        font-size: 0.8rem;
+    }
 }
